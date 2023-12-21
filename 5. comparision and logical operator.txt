@@ -1,0 +1,42 @@
+COMPARSION OPERATOR :
+
+    ==  :   equal                       and    !=  :   not equal
+
+    >   :   greater than                and    <   :   smaller than 
+
+    >=  :   greater than or equal to    and    <=  :   smaller than or equal to   
+
+LOGICAL OPERATOR :
+
+NOT GATE         AND GATE             OR GATE           
+
+X   Y           X   Y   XY          X   Y   XY          
+
+0   1           0   0   0           0   0   0          
+
+1   0           0   1   0           0   1   1           
+
+                1   0   0           1   0   1
+
+                1   1   1           1   1   1
+
+>>> # LOGICAL GATES USING COMPARSION OPERATOR PORGRAM 
+
+>>> # NOT GATE 
+>>> x = 3
+>>> y = 5
+print(not( x < 5 and y > 3))
+FALSE
+
+>>> # AND GATE 
+>>> x = 3
+>>> y = 5
+>>> x < 5 and y > 3
+True
+
+OR GATE 
+>>> x = 3
+>>> y = 5
+>>> x > 1 or y > 3
+True
+

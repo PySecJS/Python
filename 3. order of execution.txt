@@ -1,0 +1,13 @@
+ORDER OF EXECUTION :
+
+    B   :   BRACKETS / FUNCTIONS
+
+    O   :   ORDER / FUNCTIONS
+
+    D   :   DIVISION
+
+    M   :   MULTIPLICATION
+
+    A   :   ADDITION
+
+    S   :   SUBTRACTION

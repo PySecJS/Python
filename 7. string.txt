@@ -1,0 +1,155 @@
+STRING :
+         It is a collection of alphabets, words or other characters. 
+         It is one of the primitive data structures and are the building blocks for data manipulation. 
+         Python strings are "immutable" which means they cannot be changed after they are created. 
+         For string manipulation, we create new strings as we go to represent computed values because of their immutable property.
+
+>>> # BASIC 1
+
+>>> 'hi'
+'hi'
+
+>>> print("hi")
+hi
+
+>>> 'Dark'*3
+'DarkDarkDark'
+
+>>> # Dark 'king'
+>>> a="Dark 'king'"
+>>> print(a)
+Dark 'king'
+
+>>> # Dark's "world"
+>>> a='Dark\'s "world"'
+>>> print(a)
+Dark's "world"
+>>> 
+
+>>> # BASIC 2
+
+>>> "2"+"5"
+'25'
+>>> print("2"+"5")
+25
+>>>int("2")+int("3")
+5
+>>> 
+
+>>> "Dark"+"king"
+'Darkking'
+>>> print("Dark"+"king")
+Darkking
+>>> 
+
+>>> # The king of dark world
+>>>
+>>> '''
+The
+king of
+dark wold
+'''
+'\nThe\nking of\ndark wold\n'
+>>> """
+The
+'king' of
+dark world
+"""
+"\nThe\n'king' of\ndark world\n"
+>>>
+
+>>> # The "king" of dark's world
+>>> '''
+The
+"king" of
+dark\'s world
+'''
+'\nThe\n"king" of\ndark\'s world\n'
+>>> 
+
+>>> # STRING CHARACTER
+>>>
+>>> # \n - NEWLINE CHARACTER
+>>> print("The \nking of \ndark world")
+The 
+king of 
+dark world
+
+>>> #\t - TAB CHARACTER
+>>> print("The \tking of \tdark world")
+The 	king of 	dark world
+
+>>> #\0 - NUL CHARACTER
+>>>print("The \0king of \0dark world")
+The  king of  dark world
+>>> 
+
+>>> # STRING TYPE
+
+>>> #  DECIMAL CONFIRM METHOD
+>>> '012'.isdecimal()
+True
+>>> 
+>>> # ALPHABETIC CONFIRM METHOD
+>>> 'abc'.isalpha()
+True
+>>> 
+>>> # ALPHANUMERIC CONFIRM METHOD
+>>> 'a12'.isalnum()
+True
+>>> 
+
+>>> # STRING METHOD
+
+>>> # INDEX
+>>> 'The king of dark world'.index('dark')
+12
+>>> 
+
+>>> # COUNT
+>>> 'The king of dark world'.count('k')
+2
+>>> 
+
+>>> # LOWER
+>>> 'PYTHON'.lower()
+'python'
+>>> 'pyTHon'.lower()
+'python'
+>>> 
+
+>>> # UPPER
+>>> 'python'.capitalize()
+'Python'
+>>> 'PYthON'.upper()
+'PYTHON'
+>>> 
+
+>>> # CONCATENATION
+>>> 'hello'+'world'
+'helloworld'
+>>> 
+
+>>> # STRIP
+>>> ' Python '.strip()
+'Python'
+>>> ' Python '.rstrip()
+' Python'
+>>> ' Python '.lstrip()
+'Python '
+>>> 
+
+>>> # FIND
+>>> 'python'.find('on')
+4
+>>> 'python'.replace('on','off')
+'pythoff'
+>>> 
+
+>>> # ENDSWITH
+>>> 'Python'.endswith('on')
+True
+>>> 'Python'.endswith('off')
+False
+>>> 
+

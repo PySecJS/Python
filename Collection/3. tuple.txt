@@ -1,0 +1,77 @@
+>>> # TUPLE :
+              Open brackets : () and  Immutable object.
+              
+>>> # INDEX
+>>> a = (1, 2, 3, 4, 5)
+>>> a[1]
+2
+>>> 
+
+>>> # COUNT
+>>> a = (1, 2, 3, 4, 5)
+>>> a.count(2)
+1
+>>> 
+
+>>> # LENGHT
+>>> a = (1, 2, 3, 4, 5)
+>>> len(a)
+5
+>>> 
+
+>>> # MINIMUM
+>>> a = (1, 2, 3, 4, 5)
+>>> min(a)
+1
+>>> 
+
+>>> # MAXIMUM
+>>> a = (1, 2, 3, 4, 5)
+>>> max(a)
+5
+>>> 
+
+>>> # MULTIPLE OPERATION
+>>> a = (1, 2, 3, 4, 5)
+>>> a * 2
+(1, 2, 3, 4, 5, 1, 2, 3, 4, 5)
+>>> b = (6, 7, 8, 9,)
+>>> c = b + (0,)
+>>> c
+(6, 7, 8, 9, 0)
+>>>
+
+>>> # CONCATENATION
+>>> a = (1, 2, 3, 4, 5)
+>>> b = (6, 7, 8, 9 ,0)
+>>> c = a + b
+>>> c
+(1, 2, 3, 4, 5, 6, 7, 8, 9, 0)
+>>> 
+
+>>> # PACKING AND UPPACKING 
+>>> a = (1, 2, 3, 4, 5)
+>>> b, c, d, e, f = a
+>>> print("UNPACKING :", b, c, d, e, f)
+UNPACKING : 1 2 3 4 5
+>>> a
+(1, 2, 3, 4, 5)
+>>> b, c, *d, e = a
+>>> print("UNPACKING :", b, c, d, e, f)
+UNPACKING : 1 2 [3, 4] 5 5
+>>>
+
+>>> # SWAP
+>>> a = 1, 2, 3
+>>> b = 4, 5, 6
+>>> a, b = b, a
+>>> a
+(4, 5, 6)
+>>> b
+(1, 2, 3)
+>>>
+
+
+>>> # DELETE
+>>> a = (1, 2, 3, 4, 5)
+>>> del a

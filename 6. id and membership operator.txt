@@ -1,0 +1,45 @@
+ID OPERATOR :
+    It is used to comparing the objects if both the objects are actually of the same data type and share the same memory location.
+else both the objets are actually of the different data type and share the different memory location.
+
+
+MEMBERSHIP OPERATOR :
+    It is used to check or validate the membership of a value. It tests for membership in a sequence, such as strings, lists, or tuples. 
+if in term contain a sequence with the specified value is present in the object to return true and else not in term contain a sequence with the specified value is present in the object to return false.
+
+>>> # MEMBERSHIP OPERATOR : in, not in
+>>> a = [1, 2, 3, 4]
+>>> print(1 in a)
+True
+>>>
+>>> b = [1, 2, 3, 4]
+>>> print(1 not in b)
+False
+
+>>> # ID OPERATOR : is, not in
+>>>
+>>> # DIFFERENT MEMORY LOCATION
+>>> a = [1,2,3,4]
+>>> b = [1,2,3,4]
+>>> id(a)
+1847386926400
+>>> id(b)
+1847386926464
+>>> a is b
+False
+>>> a is not b
+True
+>>>
+>>> # SAME MEMORY LOCATION
+>>> a = [1,2,3,4]
+>>> b = [1,2,3,4]
+>>> a = b
+>>> id(a)
+1847386926464
+>>> id(b)
+1847386926464
+>>> a is b
+True
+>>> a is not b
+False
+>>>

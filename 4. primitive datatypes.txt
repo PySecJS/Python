@@ -1,0 +1,21 @@
+>>> # PRIMITIVE DATATYPES
+ INTEGER       FLOAT         STRING            LIST       TUPLE     DICTIONARY   SET
+A:I | D:I   A:I | D:I   A:M = DATA | D:I     A:I | D:M  A:I | D:I   KEYS : I     D:I
+IMMUTABLE   IMMUTABLE   A:I = IDENTIFER      MUTABLE    IMMUTABLE
+                            IMMUTABLE
+
+>>> # INTEGER VALUE
+>>> type(5)
+<class 'int'>
+
+>>> # FLOAT VALUE
+>>> type(0.5)
+<class 'float'>
+
+>>> # STRING VALUE
+>>> type("LINUX")
+<class 'str'>
+
+>>> # COMPLEX VALUE
+>>> type(2+3j)
+<class 'complex'>
